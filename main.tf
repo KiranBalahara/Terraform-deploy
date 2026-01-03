@@ -4,7 +4,7 @@ provider "aws" {
 
 #tfsec:ignore:aws-s3-enable-bucket-logging
 resource "aws_s3_bucket" "example" {
-  bucket = "my-tf-example-bucket-777"
+  bucket = "my-tf-example-bucket-kiran-2026"
 }
 
 resource "aws_s3_bucket_public_access_block" "example" {
